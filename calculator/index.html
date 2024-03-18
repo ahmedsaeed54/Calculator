@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Pure JavaScript Calculator</h1>
+    <div class="main-div">
+      <div class="container">
+        <div class="screen" id="screen">
+          
+        </div>
+        <button onclick="clearInput()" class="clear" >C</button>
+      </div>
+
+      <ul class="number-div">
+        <li onclick="viewInput(1)" >1</li>
+        <li onclick="viewInput(2)">2</li>
+        <li onclick="viewInput(3)">3</li>
+        <li onclick="viewInput('+')">+</li>
+        <li onclick="viewInput(4)">4</li>
+        <li onclick="viewInput(5)">5</li>
+        <li onclick="viewInput(6)">6</li>
+        <li onclick="viewInput('*')">x</li>
+        <li onclick="viewInput(7)">7</li>
+        <li onclick="viewInput(8)">8</li>
+        <li onclick="viewInput(9)">9</li>
+        <li onclick="viewInput('-')">-</li>
+        <li onclick="viewInput(0)">0</li>
+        <li onclick="viewInput('.')">.</li>
+        <li onclick="viewInput('/')">÷</li>
+        <li onclick="calculate()" >=</li>
+      </ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
